@@ -1,0 +1,28 @@
+body{
+  display: flex;   
+  align-items: center; 
+  justify-content: center;  
+  background-color: skyblue;
+  flex-direction: column;
+} 
+#calculator{
+  border: 5px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  width: 200px;
+}
+#display{
+  margin: 10px;
+  width: 85%;
+  border: 2px solid black;
+  height: 25px;
+}
+.button_container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.button{
+  width: 45px;
+  height: 40px;
+  margin: 3px;
+}
